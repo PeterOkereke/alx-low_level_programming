@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all possible different combinations of two digits
- * Numbers will be separated by comma, followed by a space and printed in ascending order.
+ * Numbers will be separated by comma, followed by a space.
  *
  * Return: Always 0 (Success)
  */
