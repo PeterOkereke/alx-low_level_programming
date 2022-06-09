@@ -1,7 +1,7 @@
 #ifndef _main_h_
 #define _main_h_
 
-int putchar(char);
+int _putchar(char);
 /**
  * putchar - Prints putchar to stdout
  * followed by a new line.
