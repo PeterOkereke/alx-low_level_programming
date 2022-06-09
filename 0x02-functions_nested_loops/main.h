@@ -29,4 +29,11 @@ int _islower(int c);
  * Return: 1 if c is lowercase, otherwise 0.
  */
 
+int _isalpha(int c);
+/**
+ * _isalpha - Checks for alphabetic character
+ * Uppercase or lowercase
+ * Return: 1 if c is uppercase or lowercase, otherwise 0.
+ */
+
 #endif
