@@ -36,4 +36,12 @@ int _isalpha(int c);
  * Return: 1 if c is uppercase or lowercase, otherwise 0.
  */
 
+int print_sign(int n);
+/**
+ * print_sign - Prints the sign of a number.
+ * Return: 1 and prints + if n is greater than 0.
+ * Return: 0 and prints 0 if n is equal to zero.
+ * Retun: -1 and prints - if n is less than 0.
+ */
+
 #endif
