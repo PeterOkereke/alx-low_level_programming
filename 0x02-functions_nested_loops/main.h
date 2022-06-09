@@ -22,4 +22,11 @@ void print_alphabet_x10(void);
  * Return: Always 0 (Success)
  */
 
+int _islower(int c);
+/**
+ * _islower - Checks for lowercase letter
+ *
+ * Return: 1 if c is lowercase, otherwise 0.
+ */
+
 #endif
