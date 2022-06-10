@@ -68,4 +68,10 @@ void times_table(void);
  * starting with zero
  */
 
+int add(int, int);
+/**
+ * add - Adds two integers
+ * Return: the result of two integers.
+ */
+
 #endif
