@@ -62,4 +62,10 @@ void jack_bauer(void);
  * starting from 00:00 to 23:59.
  */
 
+void times_table(void);
+/**
+ * times_table - Prints the 9 times table
+ * starting with zero
+ */
+
 #endif
