@@ -44,4 +44,10 @@ int print_sign(int n);
  * Retun: -1 and prints - if n is less than 0.
  */
 
+int _abs(int);
+/**
+ * _abs - Computes the absolute value of an integer.
+ * Return: Always 0.
+ */
+
 #endif
