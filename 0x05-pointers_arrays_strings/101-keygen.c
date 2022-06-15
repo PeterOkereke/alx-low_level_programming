@@ -10,7 +10,7 @@
 int main(void)
 {
 	char str[100];
-	int i = 0; randNum = 0; suma = 0;
+	int i = 0, randNum = 0, suma = 0;
 
 	srand (time(NULL));
 
