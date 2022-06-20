@@ -5,7 +5,7 @@
  * in the string haystack.
  * @haystack: entire string
  * @needle: substring
- * Return: pointer to beginning of located substring or 
+ * Return: pointer to beginning of located substring or
  * NULL if substring not found.
  */
 char *_strstr(char *haystack, char *needle)
@@ -22,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 			haystack++;
 			ssneedle++;
 		}
-		if (! *ssneedle)
+		if (!*ssneedle)
 			return (shaystack);
 		haystack = shaystack + 1;
 	}
