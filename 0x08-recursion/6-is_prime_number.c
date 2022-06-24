@@ -18,11 +18,11 @@ int is_prime(int n, int c)
 	return (0 + is_prime(n, c + 1));
 }
 /**
- * _is_prime_number - detects if an input number is a prime number.
+ * is_prime_number - detects if an input number is a prime number.
  * @n: input number.
  * Return: 1 if n is prime number. 0 otherwise.
  */
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n == 0)
 		return (0);
