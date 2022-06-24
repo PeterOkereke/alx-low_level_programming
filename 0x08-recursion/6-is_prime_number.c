@@ -6,7 +6,7 @@
  * @c: iterator.
  * Return: 1 if n is a prime number, 0 otherwise.
  */
-int is_prime(int n, int c)
+int is_prime(unsigned int n, unsigned int c)
 {
 	if (n % c == 0)
 	{
