@@ -58,7 +58,7 @@ char **strtow(char *str)
 				break;
 			}
 		}
-		for (j = 0; a1 <= c; a1++; j++)
+		for (j = 0; a1 <= c; a1++, j++)
 			aptr[i][j] = str[a1];
 		aptr[i][j] = '\0';
 	}
