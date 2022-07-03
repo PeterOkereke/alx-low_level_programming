@@ -9,7 +9,7 @@
  * if min > max, returns NULL.
  * if malloc fails, return NULL.
  */
-int *array_range(int min, int max)
+void *array_range(int min, int max)
 {
 	int *ar;
 	int n;
